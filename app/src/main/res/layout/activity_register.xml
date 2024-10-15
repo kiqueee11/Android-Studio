@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/registerGLH1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/registerGLV1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/registerGLV2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+    <TextView
+        android:id="@+id/registerTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro"
+        android:fontFamily="@font/rusticbarn"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/registerGLH1"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/registerUsernameTIL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/registerTexto"
+        app:layout_constraintStart_toStartOf="@id/registerGLV1"
+        app:layout_constraintEnd_toEndOf="@id/registerGLV2"
+        app:startIconDrawable="@drawable/baseline_account_circle_24"
+        android:layout_marginTop="20dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuario"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/registerPasswordTIL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/registerUsernameTIL"
+        app:layout_constraintStart_toStartOf="@id/registerGLV1"
+        app:layout_constraintEnd_toEndOf="@id/registerGLV2"
+        app:startIconDrawable="@drawable/baseline_key_24"
+        android:layout_marginTop="20dp"
+        app:passwordToggleEnabled="true"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/registerPassword2TIL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/registerPasswordTIL"
+        app:layout_constraintStart_toStartOf="@id/registerGLV1"
+        app:layout_constraintEnd_toEndOf="@id/registerGLV2"
+        app:startIconDrawable="@drawable/baseline_key_24"
+        android:layout_marginTop="20dp"
+        app:passwordToggleEnabled="true"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirmar contraseña"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/registerCorreoTIL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/registerPassword2TIL"
+        app:layout_constraintStart_toStartOf="@id/registerGLV1"
+        app:layout_constraintEnd_toEndOf="@id/registerGLV2"
+        app:startIconDrawable="@drawable/baseline_mail_24"
+        android:layout_marginTop="20dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo"
+            android:inputType="textWebEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/LoginButtonTIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/registerCorreoTIL"
+        app:layout_constraintStart_toStartOf="@id/registerGLV1"
+        app:layout_constraintEnd_toEndOf="@id/registerGLV2"
+        android:layout_marginTop="5dp"
+        android:text="Acceder"
+        app:icon="@drawable/baseline_login_24"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
