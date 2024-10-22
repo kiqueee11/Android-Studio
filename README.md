@@ -7,28 +7,28 @@
 
   
 </p>
-<h2>Walkers es una aplicacion para los fanaticos de las caminatas y la escalada</h2>
-<p>
-  <h3>Logo</h3>
+<h2 align = "center">Walkers es una aplicacion para los fanaticos de las caminatas y la escalada</h2>
+
+<h3 align="center">Icono</h3>
+<p align="center">
   <a href="https://github.com/kiqueee11/Android-Studio/blob/master/app/src/main/res/drawable/">
     <img src="https://github.com/kiqueee11/Android-Studio/blob/master/Capturas/Captura.PNG" alt="cap" height="240">
     </p>
-    <p>
-       <h3>Login</h3>
-  </a>
+    
+   <h3 align="center">Login</h3>
+<p align="center">
   <a href="https://github.com/kiqueee11/Android-Studio/blob/master/app/src/main/res/drawable/">
-    <img src="https://github.com/kiqueee11/Android-Studio/blob/master/Capturas/Captura1.PNG" alt="cap1" height="240">
-  </a>
-  </p>
-      <p>
-         <h3>Registro</h3>
-    <a href="https://github.com/kiqueee11/Android-Studio/blob/master/app/src/main/res/drawable/">
-    <img src="https://github.com/kiqueee11/Android-Studio/blob/master/Capturas/Captura2.PNG" alt="cap2" height="240">
-  </a>
-  </p>
-      <p>
-         <h3>Main</h3>
+    <img src="https://github.com/kiqueee11/Android-Studio/blob/master/Capturas/Captura1.PNG" alt="cap" height="240">
+    </p>
+    
+   <h3 align="center">Register</h3>
+<p align="center">
   <a href="https://github.com/kiqueee11/Android-Studio/blob/master/app/src/main/res/drawable/">
-    <img src="https://github.com/kiqueee11/Android-Studio/blob/master/Capturas/Captura3.PNG" alt="cap3" height="240">
-  </a>
-</p>
+    <img src="https://github.com/kiqueee11/Android-Studio/blob/master/Capturas/Captura2.PNG" alt="cap" height="240">
+    </p>
+    
+   <h3 align="center">Main</h3>
+<p align="center">
+  <a href="https://github.com/kiqueee11/Android-Studio/blob/master/app/src/main/res/drawable/">
+    <img src="https://github.com/kiqueee11/Android-Studio/blob/master/Capturas/Captura3.PNG" alt="cap" height="240">
+    </p>
