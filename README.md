@@ -1,10 +1,9 @@
-<h1 align="center">App walkers <a href="https://nodejs.org/en/download">Everywhere</a>.</h1><br>
+ <h1 align="center"> 🍃App walkers 🍃</h1><br> 
 
-<p align="center">
+<p align="center"> 
   <a href="https://github.com/kiqueee11/Android-Studio/blob/master/app/src/main/res/drawable/">
     <img src="https://github.com/kiqueee11/Android-Studio/blob/master/Capturas/CapturaLogo.PNG" alt="logo" height="140">
   </a>
-
   
 </p>
 <h2 align = "center">Walkers es una aplicacion para los fanaticos de las caminatas y la escalada</h2>
