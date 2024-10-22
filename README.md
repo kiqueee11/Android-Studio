@@ -1,4 +1,4 @@
- <h1 align="center"> 🍃App walkers 🍃</h1><br> 
+ <h1 align="center"> 🍃App walkers🍃</h1><br> 
 
 <p align="center"> 
   <a href="https://github.com/kiqueee11/Android-Studio/blob/master/app/src/main/res/drawable/">
