@@ -35,21 +35,20 @@ public class Login extends AppCompatActivity {
 
 
         loginButton.setOnClickListener(new View.OnClickListener() {
-                                           @Override
-                                           public void onClick(View view) {
-                                               String loginUser = String.valueOf(loginUsuario.getEditText().getText());
-                                               String loginPassword = String.valueOf(loginContrasena.getEditText().getText());
+           @Override
+           public void onClick(View view) {
+               String loginUser = String.valueOf(loginUsuario.getEditText().getText());
+               String loginPassword = String.valueOf(loginContrasena.getEditText().getText());
 
-                                               if (name.equals(loginUser) && password.equals(loginPassword)) {
-                                                   launchMain();
-                                               }else{
-                                                   Toast toast = Toast.makeText(getApplicationContext(), "Tu usuario o tu contraseña son erroneos", Toast.LENGTH_SHORT);
-                                                   toast.show();
-                                               }
-                                           }
+               if (name.equals(loginUser) && password.equals(loginPassword)) {
+                   launchMain();
+               }else{
+                   Toast toast = Toast.makeText(getApplicationContext(), "Tu usuario o tu contraseña son erroneos", Toast.LENGTH_SHORT);
+                   toast.show();
+               }
+           }
 
-                                           ;
-                                       });
+        });
         loginRegisterText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
